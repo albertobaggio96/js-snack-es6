@@ -15,7 +15,10 @@ for (let key in student){
 const studentsList = [
   {name: "Luigi",
   surname: "Ballo",
-  age: 21}
+  age: 21},
+  {name: "Luisa",
+  surname: "Balla",
+  age: 23},
 ]
 
 for(let i = 0; i < studentsList.length; i++){
