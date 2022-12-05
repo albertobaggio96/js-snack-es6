@@ -56,3 +56,5 @@ for(let i= 0; i < zucchineList.length; i++){
   sum += parseInt(zucchineList[i].peso);
 }
 console.log(sum);
+
+console.log(sum/zucchineList.length)
