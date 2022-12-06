@@ -66,8 +66,12 @@ const animalsList = [
 
 const mammalsList = animalsList.filter((animal) => animal.classe === "mammiferi");
 
-
-mammalsList.map((mammal)=>{
-  console.log(mammal.nome.toUpperCase())
-})
 console.log(mammalsList);
+
+const newMammals=  mammalsList.map((mammal)=>{
+  mammal.nome = mammal.nome.charAt(0).toLocaleLowerCase() + mammal.nome.substring(1).toUpperCase();
+
+  return mammal
+})
+
+console.log(newMammals)
