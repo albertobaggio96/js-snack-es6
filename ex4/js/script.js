@@ -71,7 +71,7 @@ console.log(mammalsList);
 const newMammals=  mammalsList.map((mammal)=>{
   mammal.nome = mammal.nome.charAt(0).toLocaleLowerCase() + mammal.nome.substring(1).toUpperCase();
 
-  return mammal
+  return mammal;
 })
 
-console.log(newMammals)
+console.log(newMammals);
